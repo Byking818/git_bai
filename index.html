@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<style type="text/css" media="screen">
+*,video{margin:0;padding:0;}
+
+#all{
+	/*background: url(5402ad17321e7/5402ad17321e7.jpg) no-repeat;*/
+	width: 100%;
+	background-size: cover;
+	
+}
+#bgvid{
+	width: 100%;
+}
+</style>
+</head>
+<body>
+<div id="all">
+<video autoplay loop poster="57ec9766ecbcf/57ec9795dc2cc_1024.jpg" id="bgvid"> 
+	<source src="57ec9766ecbcf/57ec97669328c.mp4" type="video/mp4"></video>
+</div>
+    <script type="text/javascript">
+    	
+    	window.onload=function(){
+    		var _height=document.documentElement.clientHeight;
+    		var oAll=document.getElementById('all');
+    		var oVideo=document.getElementById('bgvid');
+		oAll.style.height=_height+'px';
+    	}
+    </script>
+</body>
+</html>
