@@ -1,0 +1,40 @@
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, span, a, img, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+body{
+	font-family: 'Microsoft YaHei';
+	color:#333;
+}
+/*头部*/
+header{
+	width:100%;
+	height:auto;
+	position: relative;
+}
+.top{
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*中间内容*/
+.all{
+	width: 100%;
+	background: url(yuan.jpg) no-repeat;
+	height: 420px;
+}
+.b_content{
+	background:url(yuan.jpg) no-repeat;
+	width:1200px;
+	height: 490px;
+}
